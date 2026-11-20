@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Back end — Policy Window Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="viz-root">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#review">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-text">Policy Window Monitor</span><span class="brand-tag">Back end</span>
+      </a>
+      <div class="country">
+        <label for="country-select" class="sr-only">Country</label>
+        <select id="country-select" aria-label="Country"></select>
+      </div>
+    </div>
+    <nav class="wrap tabs" aria-label="Views">
+      <a href="#review" data-view="review">Review signals</a>
+      <a href="#sources" data-view="sources">Source log</a>
+      <a href="#run" data-view="run">This run</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="run-banner" id="run-banner"></div>
+
+    <section class="view" id="view-review" aria-labelledby="h-review">
+      <h1 id="h-review" class="lead-title">Review the week's signals</h1>
+      <div id="review-body"></div>
+    </section>
+
+    <section class="view" id="view-sources" aria-labelledby="h-sources" hidden>
+      <h1 id="h-sources" class="lead-title">Source log</h1>
+      <p class="lead">The outlets, programmes, podcasts, polls, indicators and moments the weekly runs read. The log is a running document: add a source whenever you learn of one. Sources that need transcription are split between the Thursday and Friday runs.</p>
+      <article class="panel" id="add-source"></article>
+      <div class="filters" role="group" aria-label="Filter sources">
+        <div class="chip-row" id="source-type-filter"></div>
+        <div class="chip-row" id="source-day-filter"></div>
+      </div>
+      <div class="items-scroll tall"><table class="items" id="source-log"></table></div>
+      <p class="note-line" id="source-gap"></p>
+    </section>
+
+    <section class="view" id="view-run" aria-labelledby="h-run" hidden>
+      <h1 id="h-run" class="lead-title">This run: frame, steps, limitations and validation</h1>
+      <div id="run-body"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap"><p>Reviewers' back end of the Policy Window Monitor. The public site is at <a href="https://camansil.github.io/policy-windows/">camansil.github.io/policy-windows</a>.</p></div></footer>
+</div>
+<script src="data/cl.js"></script>
+<script src="data/co.js"></script>
+<script src="assets/backend.js"></script>
+</body>
+</html>
