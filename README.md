@@ -27,6 +27,10 @@ scripts/build_stub.py      data file for a country with no run yet
 
 Clone this repository next to `policy-windows`; `policy-windows/scripts/build_data.py` reads the source log and leads from here and writes `data/cl.js`.
 
+## Private preview
+
+A private copy of this site, visible only to its owner, is on claude.ai: https://claude.ai/artifact/2QJU4igCfDpv8yueyRQN9g (republished by hand when needed).
+
 ## Visibility
 
 This repository is public on GitHub, so its files can be read by anyone with the address even though the public site no longer links to it. To keep the back end private, make the repository private in **Settings → General → Danger zone** (GitHub Pages for private repositories needs a paid plan), or open `index.html` locally.
