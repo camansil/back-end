@@ -1,0 +1,15 @@
+topic,name,window_type,opened,closed,outcome,weeks_open,closing_reason,status_now,recorded_on,source
+T01,Organised crime & Rules on the Use of Force (RUF),Political window,before W1 or not recorded,W5 (6–12 Oct),decision taken,,Decision taken,Closed (decision 7 Oct),2026-11-25,backfilled from weekly files W1–W10
+T02,Calles sin Violencia replaced by Plan FOCO,—,W4 (29 Sep–5 Oct),W6 (13–19 Oct),attention faded,2,Attention faded (W6),Watch: politics only,2026-11-25,backfilled from weekly files W1–W10
+T03,Migration: expulsions and detention,Political window,W7 (20–26 Oct),W8 (27 Oct–5 Nov),"decision taken, action failed",1,Decision taken; action failed (60-day detention),Closed (law dispatched 20 Oct),2026-11-25,backfilled from weekly files W1–W10
+T04,Administrative sentence reductions ('caso Rabat'),Problem window,W7 (20–26 Oct),,open,,,Problem window,2026-11-25,backfilled from weekly files W1–W10
+T05,Pension funds D and E losses,Problem window,W7 (20–26 Oct),W10 (13–19 Nov),attention faded,3,Attention faded as Fund E recovered,Closed (attention faded),2026-11-25,backfilled from weekly files W1–W10
+T06,Employment recovery,Problem window,W1 (8–14 Sep),W10 (13–19 Nov),closing,9,Attention fading; no government step on employment,Closing: no government move,2026-11-25,backfilled from weekly files W1–W10
+T07,Sala Cuna Universal (Boletín 14.782-13),Political window,W1 (8–14 Sep),,open,,,Political window (decision imminent),2026-11-25,backfilled from weekly files W1–W10
+T08,Budget 2027 and fiscal consolidation,Political window,W4 (29 Sep–5 Oct),,open,,,Political window (decision imminent),2026-11-25,backfilled from weekly files W1–W10
+T09,"Health budget: Ricarte Soto, immunisation, primary care",Political window,W4 (29 Sep–5 Oct),W10 (13–19 Nov),decision taken,6,"Decision taken: both chambers approved the Health line with Ricarte Soto restored (Senate 38–1, 18 Nov)",Closed (decision taken in both chambers),2026-11-25,backfilled from weekly files W1–W10
+T13,Tobacco contraband and Customs,Political window,before W1 or not recorded,W6 (13–19 Oct),decision taken,,Decision taken,"Closed (Ley 21.850, 17 Oct)",2026-11-25,backfilled from weekly files W1–W10
+T14,"Education budget (SLEP, Yo Elijo Mi PC, Junji/Junaeb)",Political window,W4 (29 Sep–5 Oct),,open,,,Political window (decision imminent),2026-11-25,backfilled from weekly files W1–W10
+T16,Tolls and electricity tariffs,—,before W1 or not recorded,W8 (27 Oct–5 Nov),decision taken,,Decision taken,Watch: politics only,2026-11-25,backfilled from weekly files W1–W10
+T17,Regional funding and Ley Cholito,—,before W1 or not recorded,W8 (27 Oct–5 Nov),decision taken,,Decision taken (pending floor),Closed (agreement 4 Nov; no window flagged),2026-11-25,backfilled from weekly files W1–W10
+T21,Fuel prices,Problem window,W9 (6–12 Nov),W10 (13–19 Nov),decision taken,1,Decision taken: Ley 21.857 passed on 16 Nov and published on 17 Nov; prices fell on 19 Nov,Closed (decision taken: Ley 21.857),2026-11-25,backfilled from weekly files W1–W10

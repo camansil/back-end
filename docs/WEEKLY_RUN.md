@@ -128,6 +128,8 @@ Open policy-windows `index.html` in a browser (or a headless browser) and check 
 (cd back-end && git add -A && git commit -m "Weekly run CL <year>-W<nn>" && git push origin main)
 ```
 
+**Outcome log.** Update the back end's `outcomes/cl.csv` (see `outcomes/README.md`): add a row for every window flagged this week, and fill `closed`, `outcome`, `weeks_open` and `closing_reason` for every window that closed or started closing, naming the dated decision and its item id. It is the record later forecasts are tested against, so never rewrite a past row except to close it.
+
 Set `reviewStatus` to `proposed`. Reviews are applied at the start of the next run (step 0). The back end's Review signals tab summarises the week and lists the `requests` as a to-do for a person.
 
 A run done before the week has ended (the Thursday run, or any early run) sets `partial: true` and `coveredTo`; the Friday run completes that week and replaces the file.
